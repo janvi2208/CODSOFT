@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pro Gym</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.jpeg" alt="" />
+      </a>
+
+      <nav class="navbar">
+        <div id="close" class="fas fa-times"></div>
+
+        <a href="#home" class="nav_item">Home</a>
+        <a href="#about" class="nav_item">About</a>
+        <a href="#pricing" class="nav_item">Pricing</a>
+        <a href="#contact" class="nav_item">Contact</a>
+      </nav>
+
+      <div id="menu" class="fas fa-bars"></div>
+    </header>
+
+    <section id="home" class="home">
+      <div class="content">
+        <h1 class="title">
+          <span>BUILD </span> your Body <span> Transform </span> your Life
+        </h1>
+        <p class="description">
+          Where Sweat Meets Success: Your Fitness Journey Starts Here
+        </p>
+        <a href="#pricing" class="btn">Start Today</a>
+      </div>
+
+      <div class="image">
+        <img src="images/back.png" alt="" />
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h1>About Us</h1>
+        <p>
+          Welcome to our gym! We're dedicated to helping you achieve your
+          fitness goals. Our state-of-the-art facilities, experienced trainers,
+          and diverse range of classes make us the perfect choice for anyone
+          looking to improve their health and well-being.
+        </p>
+        <p>
+          At our gym, we prioritize the well-being of our members. From
+          beginners to advanced athletes, we provide personalized training
+          programs tailored to your specific needs and fitness level. Our
+          supportive community and motivating atmosphere ensure that you stay
+          motivated and on track to reach your goals.
+        </p>
+        <p>
+          Whether you're looking to lose weight, build muscle, or improve your
+          overall fitness, we have everything you need to succeed. Join us today
+          and start your journey to a healthier, happier you!
+        </p>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <div class="pricing-card">
+        <h2>Basic</h2>
+        <p class="price">$29.99/mo</p>
+        <ul>
+          <li>Access to cardio machines</li>
+          <li>Basic weight training equipment</li>
+          <li>Group fitness classes</li>
+          <li>Locker rooms and showers</li>
+          <li>Discounts on supplements</li>
+        </ul>
+        <a href="#" class="btn">Sign Up</a>
+      </div>
+      <div class="pricing-card">
+        <h2>Premium</h2>
+        <p class="price">$49.99/mo</p>
+        <ul>
+          <li>Access to all facilities</li>
+          <li>Personal training sessions</li>
+          <li>Nutritional guidance</li>
+          <li>Access to sauna and steam rooms</li>
+          <li>Free towel service</li>
+        </ul>
+        <a href="#" class="btn">Sign Up</a>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+      <p>Feel free to reach out to us for any inquiries or questions.</p>
+
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" />
+        <input type="email" name="email" placeholder="Your Email" />
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
